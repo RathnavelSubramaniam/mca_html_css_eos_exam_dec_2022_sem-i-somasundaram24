@@ -1,0 +1,155 @@
+
+* {
+    box-sizing: border-box;
+    background-color: linear-gradient(to right, rgb(207, 196, 196), rgba(255,0,0,0), rgb(207, 196, 196));
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  /* Style the header */
+  header {
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: black;
+  }/* Style the footer */
+ 
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family:Arial, Helvetica, sans-serif;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-image: linear-gradient(to right,  #3052A1, #3052A1,  #3052A1);
+    color: rgb(12, 11, 11);
+   }
+   .nav-links a {
+    color: white;
+   }
+   .logo {
+    font-size: 32px;
+   }
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 14px;
+   }
+   .menu li:hover {
+    background-color: #C72E8F;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: #214747;
+    padding: 1em 0;
+    position: absolute; 
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #C72E8F;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+   .imag{
+    float: center;
+    padding: 40px;
+   }
+
+
+   
+   
+   .social_icon {
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    }
+    .social_icon ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    
+    }
+    .social_icon li{
+    float: left;
+    padding-right: 5px;
+    list-style: none;
+    }
+    .copyright_section {
+    width: 100%;
+    float: left;
+    height: auto;
+    background-image: #3052A1;
+    }
+    .copyright_text {
+    width: 100%;
+    float: left;
+    color:white;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 0px;
+    text-transform: uppercase;
+    }
+   
+
+
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      /* Create three equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 23.33%;
+        padding: 10px;
+        height: 540px; /* Should be removed. Only for demonstration */
+        background-image: linear-gradient(to right, rgb(207, 196, 196), rgba(255,0,0,0), rgb(207, 196, 196));
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        
+      }
+      .footer{
+        background-color: rgb(48, 82, 161);
+      }
